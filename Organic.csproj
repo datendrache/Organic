@@ -4,10 +4,23 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Organic Programming Framework</Title>
+    <Copyright>Copyright (C) 2003-2023 by Eric Knight</Copyright>
+    <PackageProjectUrl>https://github.com/datendrache/Organic</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/datendrache/Organic.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Updates for Fatum 1.0.2</PackageReleaseNotes>
+    <PackageTags>Proliferation; Organic</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Organic\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Proliferation.Fatum" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
